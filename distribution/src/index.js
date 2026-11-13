@@ -170,19 +170,19 @@ return new Promise(async () => {
 						icon: 'https://game.touch-rp.com/mobile/image/pro_icon.jpeg',
 						events: [
 							{
-								title: 'Акция x2',
+								title: 'Открытие проекта',
 								style: 'red',
 							},
 							{
-								title: 'Контейнеры',
+								title: 'Добро пожаловать',
 								style: 'blue',
 							},
 						],
 						slot: 100,
 						bonus: true,
-						name: 'PRO - Server',
-						description: 'SA-MP Mobile',
-						address: '176.32.39.214:7777',
+						name: 'Московский округ',
+						description: 'CRMP Mobile',
+						address: '94.23.168.153:2625',
 						sampVersion: '0.3.7',
 					},
 					{
@@ -192,18 +192,18 @@ return new Promise(async () => {
 						icon: 'https://game.touch-rp.com/mobile/image/pro_icon.jpeg',
 						events: [
 							{
-								title: 'Акция x2',
+								title: 'Открытие проекта',
 								style: 'red',
 							},
 							{
-								title: 'Контейнеры',
+								title: 'Добро пожаловать',
 								style: 'blue',
 							},
 						],
 						slot: 1000,
 						bonus: false,
 						name: 'Localhost',
-						description: 'SA-MP Mobile',
+						description: 'CRMP Mobile',
 						address: '127.0.0.1:7777',
 						sampVersion: '0.3.7',
 					},

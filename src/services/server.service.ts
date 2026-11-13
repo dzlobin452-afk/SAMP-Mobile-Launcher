@@ -8,8 +8,9 @@ export const ServerService = {
       .then(res => res.data.core.pc);
   },
 
-  async getOnline(host: string) {
-    return getServerQuery({ host, timeout: 5000 }).then(res => res);
+  async getOnline(address: string) {
+    const [host, portText] = address.split(":");
+      return getServerQuery({ host, port: Number(portText) || 7777, timeout: 5000 }).then(res => res);
   },
 };
 
